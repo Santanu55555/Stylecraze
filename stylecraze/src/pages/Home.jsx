@@ -12,7 +12,7 @@ export const Home = () => {
             <div class="SGbox1-div"><img src="https://cdn2.stylecraze.com/wp-content/uploads/2017/08/How-To-Do-Ombre-Nails-Like-A-Pro-Tutorial-With-Pictures-2.jpg.webp"/>
                 <p className="Lelo">21 Best Fruit And Vegetable Juices For Healthy And Glowing Skin</p></div>
         </div>
-        <div ><img src="https://i.postimg.cc/NfPgwWBz/Whats-App-Image-2022-06-15-at-6-35-57-PM.jpg"/></div>
+        <div ><img style={{width:"100%"}} src="https://i.postimg.cc/NfPgwWBz/Whats-App-Image-2022-06-15-at-6-35-57-PM.jpg"/></div>
         <div class="SG-box3"><p>MAKEUP</p></div>
        
            <div class="SG-box4">
@@ -225,7 +225,7 @@ export const Home = () => {
 </div>
 
 
-<div id = "SK_homesecond" style={{backgroundColor:"#f67",paddingBottom:"60px"}}>
+<div id = "SK_homesecond" style={{backgroundColor:"#f67",paddingBottom:"50px",paddingTop:"5px"}}>
     <div id = "SK_secmedi">
         <div id = "SK_sectitle">
             <p style={{color:"white",borderBottom:"1px solid white",width:'20%',marginLeft:'43%'}}> Testimonials</p>
@@ -233,69 +233,70 @@ export const Home = () => {
         
     </div>
     
-    <div id = "SK_seclastdiv" style={{backgroundColor:"white",paddingBottom:'100px',width:"90%",}}>
+    <div id = "SK_seclastdiv" style={{backgroundColor:"white",fontWeight:"-200",paddingTop:'40px',width:"90%",marginLeft:'60px',borderRadius:'20px'}}>
         <div id ="SK_secfirst">
-            <div id = "SK_secname">
-                <p>Gayatri Gogoi</p>
+             <div id = "DK_secname">
+           
             </div>
-            <div id = "SK_secimg">
-                <img src="https://cdn2.stylecraze.com/wp-content/uploads/2021/10/gayathri-goigoi.png.webp" alt=""/>
+            <div id = "DK_secimg">
+               
                 <p style={{    fontFamily: "poppins",    fontStyle: "italic"}}>“As an introvert in her early 20s, I have always found it hard to break the ice or to continue conversations. The witty yet well-researched content of this website has helped me express myself better in various situations. I keep coming back to StyleCraze for more such interesting reads.”
-                </p>
+                   
+                </p> <p style={{color:'#f67',fontWeight:'bold',fontSize:"20px"}}>Gayatri Gogoi</p>
             </div>
         </div>
 
 
-        <div id ="SK_secfirst">
-            <div id = "SK_secname">
-                <p>Priya Dikshit</p>
+        <div id ="DK_secfirst">
+            <div id = "DK_secname">
+               
             </div>
-            <div id = "SK_secimg">
-                <img src="https://cdn2.stylecraze.com/wp-content/uploads/2021/10/priya-dixit-1.png.webp" alt=""/>
-                <p style={{    fontFamily: "poppins",    fontStyle: "italic"}}>“ I tend to gravitate towards home remedies to resolve various skin and hair issues, and StyleCraze has a wonderful repository of at-home solutions. Excellent work! ”
-                </p>
-            </div>
-        </div>
-
-
-
-        <div id ="SK_secfirst">
-            <div id = "SK_secname">
-                <p>Priya Thawani</p>
-            </div>
-            <div id = "SK_secimg">
-                <img src="https://cdn2.stylecraze.com/wp-content/uploads/2021/10/pia-thawani.png.webp" alt=""/>
-                <p style={{    fontFamily: "poppins",    fontStyle: "italic"}}>“StyleCraze is my guilty pleasure. I love this website and follow the diet and weight loss articles. I have always struggled with weight management, but the tips and information on all the latest diet and fitness trends have helped me stay in shape!”
-                </p>
+            <div id = "DK_secimg">
+               
+                <p style={{  width:'200px',   fontFamily: "poppins",    fontStyle: "italic"}}>“ I tend to gravitate towards home remedies to resolve various skin and hair issues, and StyleCraze has a wonderful repository of at-home solutions. Excellent work! ”
+                 </p><p style={{color:'#f67',fontWeight:'bold',fontSize:"20px"}}>Priya Dikshit</p>
             </div>
         </div>
 
 
 
-
-        <div id ="SK_secfirst">
-            <div id = "SK_secname">
-                <p>Renuka Thakur</p>
+        <div id ="DK_secfirst">
+            <div id = "DK_secname">
+     
             </div>
-            <div id = "SK_secimg">
-                <img src="https://cdn2.stylecraze.com/wp-content/uploads/2021/10/renuka-thakur.png.webp" alt=""/>
-                <p style={{    fontFamily: "poppins",    fontStyle: "italic"}}>“StyleCraze is my go-to site for updates on makeup and fashion. From lipstick reviews to outfit ideas, it has it all!”
-                </p>
+            <div id = "DK_secimg">
+              
+                <p style={{  width:'200px',   fontFamily: "poppins",    fontStyle: "italic"}}>“StyleCraze is my guilty pleasure. I love this website and follow the diet and weight loss articles. I have always struggled with weight management, but the tips and information on all the latest diet and fitness trends have helped me stay in shape!”
+                        </p>   <p style={{color:'#f67',fontWeight:'bold',fontSize:"20px"}}>Priya Thawani</p> 
             </div>
         </div>
 
 
 
 
-
-        <div id ="SK_secfirst">
-            <div id = "SK_secname">
-                <p>Ananya Kataria</p>
+        <div id ="DK_secfirst">
+            <div id = "DK_secname">
+            
             </div>
-            <div id = "SK_secimg">
-                <img src="https://cdn2.stylecraze.com/wp-content/uploads/2021/10/ananya-kataria.png.webp" alt=""/>
-                <p style={{    fontFamily: "poppins",    fontStyle: "italic"}}>“I had damaged hair and wanted to get to the root cause of my hair-related issues. That was the time I came across StyleCraze – they not only suggest thoroughly researched solutions but also why and how to go about it. Thank you for being my hair savior!”
-                </p>
+            <div id = "DK_secimg">
+              
+                <p style={{  width:'200px',   fontFamily: "poppins",    fontStyle: "italic"}}> “StyleCraze is my go-to site for updates on makeup and fashion. From lipstick reviews to outfit ideas, it has it all!”
+                 </p>  <p style={{color:'#f67',fontWeight:'bold',fontSize:"20px"}}>Renuka Thakur</p> 
+            </div>
+        </div>
+
+
+
+
+
+        <div id ="DK_secfirst">
+            <div id = "DK_secname">
+             
+            </div>
+            <div id = "DK_secimg">
+               
+                <p style={{   width:'200px', fontFamily: "poppins",    fontStyle: "italic"}}>“I had damaged hair and wanted to get to the root cause of my hair-related issues. That was the time I came across StyleCraze – they not only suggest thoroughly researched solutions but also why and how to go about it. Thank you for being my hair savior!”
+                  </p>  <p style={{color:'#f67',fontWeight:'bold',fontSize:"20px"}}>Ananya Kataria</p>
             </div>
         </div>
 
