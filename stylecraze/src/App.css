@@ -34,28 +34,16 @@
 .SGbox1-div>p {
   font-size: 24px;
   color: #333;
-  position: relative;
+
     height: 3.6em;
-    /* exactly three lines */
+    line-clamp: 2;
+        overflow: 'hidden';
+           
+            display: '-webkit-box';
+      
   }
-  
- .SGbox1-div>p::after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 70%;
-    height: 1.2em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-  }
-
+   
  
-
- 
-
-  
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
