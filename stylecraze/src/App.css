@@ -9,8 +9,10 @@
 #SanOne {
   width: 95%;
   margin-left: 2.5%;
-  height: 550px;
+  height: 600px;
+  padding-top: 100px;
   display: flex;
+  position:inherit;
   cursor: pointer;
 
 }
@@ -29,7 +31,10 @@
 }
 .SanOne-div:hover {
  /* border: 1px solid black; */
+ /* position: static; */
  opacity: .9;
+ /* filter: none;
+ -webkit-filter: grayscale(0); */
 }
 .SanOne-div>p {
   font-size: 24px;

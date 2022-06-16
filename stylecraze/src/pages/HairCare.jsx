@@ -9,7 +9,7 @@ export const HairCare = () => {
                 <div class="Santa-box7-2-1"><img src="https://cdn2.stylecraze.com/wp-content/uploads/2013/03/16-Ways-To-Protect-Your-Hair-From-The-Summer-Sun-3.jpg.webp"/></div>
                 <div class="Santa-box7-2-2">
                     <p class="Santa-box7-p1">16 Ways To Protect Your Hair From The Summer Sun</p>
-                    <p class="Santa-box7-p2">We understand that the intense summer heat is detrimental to your Nikiin, which requires appropriate precautions to keep your Nikiin protected. However, it has a negative impact on the hair too. The heat from the sun causes weathering and oxidative […]</p>
+                    <p class="Santa-box7-p2">We understand that the intense summer heat is detrimental to your Skin, which requires appropriate precautions to keep your Skin protected. However, it has a negative impact on the hair too. The heat from the sun causes weathering and oxidative […]</p>
                   
                     <p class="Santa-box7-p4">Anjali Sayee ● 595 shares</p></div>
             </div>

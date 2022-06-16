@@ -10,6 +10,19 @@ window.onload=function(){
 var makeup = document.getElementById("makeup-dropdown");
 var one = document.getElementById("pehla");
 
+const toggleMakeUp=(element)=> {
+  element.style.display = "block";
+  element.addEventListener("mouseover", () => {
+    element.style.display = "block";
+  });
+  element.addEventListener("mouseout", () => {
+    element.style.display = "none";
+  });}
+
+  const toggleMakeUpOff=(element)=> {
+  element.style.display = "none";
+}
+
 if(one){
 one.addEventListener("mouseover", () => {
   toggleMakeUp(makeup);
@@ -134,21 +147,8 @@ sunoDilKi.addEventListener("mouseout", () => {
 
 
 
- const toggleMakeUp=(element)=> {
-  element.style.display = "block";
-  element.addEventListener("mouseover", () => {
-    element.style.display = "block";
-  });
-  element.addEventListener("mouseout", () => {
-    element.style.display = "none";
-  });}
-
-  const toggleMakeUpOff=(element)=> {
-  element.style.display = "none";
-}
-
   return (
-    <div>
+    <div id="navu">
         <div><img src='https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png'/></div>
         <div><nav>
     <div className="main-container">
@@ -217,7 +217,7 @@ sunoDilKi.addEventListener("mouseout", () => {
                   /><span
                     >Best Bridal Makeup Kits Available In India - Our Top
                     10</span
-                  ></div                >
+                  ></div                > 
               </li>
             </ul>
             <div className="findmore">Find More</div>
