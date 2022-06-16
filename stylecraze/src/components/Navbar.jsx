@@ -1,11 +1,140 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './navbar.css'
 // import './Hitler.scss'
  import {useRef, useEffect} from 'react';
 
 export const Navbar = () => {
 
-  const toggleMakeUp=(element)=> {
+  // const [toggle,setToggle]=useState(false)
+window.onload=function(){
+var makeup = document.getElementById("makeup-dropdown");
+var one = document.getElementById("pehla");
+
+if(one){
+one.addEventListener("mouseover", () => {
+  toggleMakeUp(makeup);
+});
+one.addEventListener("mouseout", () => {
+  toggleMakeUpOff(makeup);
+});
+}
+var bottle= document.getElementById("panchwa")
+
+if(bottle){
+bottle.addEventListener("mouseover", () => {
+  toggleMakeUp(makeup);
+});
+bottle.addEventListener("mouseout", () => {
+  toggleMakeUpOff(makeup);
+});
+}
+
+var haircare = document.getElementById("haircare-dropdown")
+
+ var down = document.getElementById("dusra");
+
+ if(down){
+
+down.addEventListener("mouseover", () => {
+  toggleMakeUp(haircare);
+});
+down.addEventListener("mouseout", () => {
+  toggleMakeUpOff(haircare);
+});
+ }
+var sixth = document.getElementById("chatha");
+
+ if(sixth){
+
+sixth.addEventListener("mouseover", () => {
+  toggleMakeUp(haircare);
+});
+sixth.addEventListener("mouseout", () => {
+  toggleMakeUpOff(haircare);
+});
+ }
+
+
+var skincare = document.getElementById("skincare-dropdown");
+
+var bob = document.getElementById("tisra");
+
+
+if(bob){
+bob.addEventListener("mouseover", () => {
+  toggleMakeUp(skincare);
+});
+bob.addEventListener("mouseout", () => {
+  toggleMakeUpOff(skincare);
+});
+}
+var seventh = document.getElementById("satwa");
+
+
+if(seventh){
+seventh.addEventListener("mouseover", () => {
+  toggleMakeUp(skincare);
+});
+seventh.addEventListener("mouseout", () => {
+  toggleMakeUpOff(skincare);
+});
+}
+
+var hairstyle = document.getElementById("hairstyle-dropdown");
+var Marle = document.getElementById("chautha");
+
+
+if(Marle){
+Marle.addEventListener("mouseover", () => {
+  toggleMakeUp(hairstyle);
+});
+Marle.addEventListener("mouseout", () => {
+  toggleMakeUpOff(hairstyle);
+});
+}
+var eighth = document.getElementById("athwa");
+
+
+if(eighth){
+eighth.addEventListener("mouseover", () => {
+  toggleMakeUp(hairstyle);
+});
+eighth.addEventListener("mouseout", () => {
+  toggleMakeUpOff(hairstyle);
+});
+}
+
+var aboutus = document.getElementById("about-us-dropdown");
+var sunoDilKi = document.getElementById("HumareBareme");
+
+if(sunoDilKi){
+sunoDilKi.addEventListener("mouseover", () => {
+  toggleMakeUp(aboutus);
+});
+sunoDilKi.addEventListener("mouseout", () => {
+  toggleMakeUpOff(aboutus);
+});
+}
+
+
+
+
+}
+
+
+//   // const ref = useRef(null);
+
+  // toggleMakeUp(ref.current)
+  // useEffect(()=>{
+  //   // const kantaLage=ref.current
+   
+  //     toggleMakeUp(ref.current)
+    
+  // })
+
+
+
+ const toggleMakeUp=(element)=> {
   element.style.display = "block";
   element.addEventListener("mouseover", () => {
     element.style.display = "block";
@@ -18,93 +147,17 @@ export const Navbar = () => {
   element.style.display = "none";
 }
 
-var makeup = document.getElementById("makeup-dropdown");
-//   // const ref = useRef(null);
-
-  // toggleMakeUp(ref.current)
-  // useEffect(()=>{
-  //   // const kantaLage=ref.current
-   
-  //     toggleMakeUp(ref.current)
-    
-  // })
-var navfirstlink = document.getElementById("nav-first-link");
-
-if(navfirstlink){
-navfirstlink.addEventListener("mouseover", () => {
-  toggleMakeUp(makeup);
-});
-navfirstlink.addEventListener("mouseout", () => {
-  toggleMakeUpOff(makeup);
-});
-}
-
-
-var haircare = document.getElementById("haircare-dropdown")
-
- var secondNavLink = document.getElementById("second-nav-link");
-
- if(secondNavLink){
-
-secondNavLink.addEventListener("mouseover", () => {
-  toggleMakeUp(haircare);
-});
-secondNavLink.addEventListener("mouseout", () => {
-  toggleMakeUpOff(haircare);
-});
- }
-
-
-var skincare = document.getElementById("skincare-dropdown");
-
-var thirdNavLink = document.getElementById("third-nav-link");
-
-
-if(thirdNavLink){
-thirdNavLink.addEventListener("mouseover", () => {
-  toggleMakeUp(skincare);
-});
-thirdNavLink.addEventListener("mouseout", () => {
-  toggleMakeUpOff(skincare);
-});
-}
-
-
-var hairstyle = document.getElementById("hairstyle-dropdown");
-var fourthNavLink = document.getElementById("fourth-nav-link");
-
-
-if(fourthNavLink){
-fourthNavLink.addEventListener("mouseover", () => {
-  toggleMakeUp(hairstyle);
-});
-fourthNavLink.addEventListener("mouseout", () => {
-  toggleMakeUpOff(hairstyle);
-});
-}
-
-var aboutus = document.getElementById("about-us-dropdown");
-var lastNavLink = document.getElementById("last-nav-link");
-
-if(lastNavLink){
-lastNavLink.addEventListener("mouseover", () => {
-  toggleMakeUp(aboutus);
-});
-lastNavLink.addEventListener("mouseout", () => {
-  toggleMakeUpOff(aboutus);
-});
-}
-
   return (
     <div>
         <div><img src='https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png'/></div>
         <div><nav>
-    <div className="dr-container">
+    <div className="main-container">
       <ul>
         <li>
-          <div id = "nav-first-link">Make up</div          >
-          <div className="dr-flex dr-dropdown-div"   id="makeup-dropdown">
-            <ul className="dr-flex">
+          <div id = "pehla"  >Make up</div  >
+<div>
+          <div className="main-flex main-dropdown-div"   id="makeup-dropdown">
+            <ul className="main-flex">
               <li>
                 <div id = "bridal-makeup"> Bridal Makeup</div>
               </li>
@@ -118,10 +171,9 @@ lastNavLink.addEventListener("mouseout", () => {
               <li><div>Mehandi Designs</div></li>
               <li><div>Nail Art</div></li>
             </ul>
-            <ul className="dr-flex" id="make-up-submenu">
+            <ul className="main-flex" id="make-up-submenu">
               <li>
-                <div
-                  ><img
+                <div                  ><img
                     src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/46-Top-5-VLCC-Bridal-Makeup-Packages-ss-267x300.jpg.webp"
                     alt=""
                   /><span>Top 5 VLCC Bridal Makeup Packages</span></div>
@@ -170,13 +222,17 @@ lastNavLink.addEventListener("mouseout", () => {
             </ul>
             <div className="findmore">Find More</div>
           </div>
-        </li>
+          
+    
+            </div>
+         </li>
+       
         <li>
           <div
-            id = "second-nav-link"
+            id = "dusra"
             >hair care</div>
-          <div className="dr-flex dr-dropdown-div" id="haircare-dropdown">
-            <ul className="dr-flex">
+          <div className="main-flex main-dropdown-div" id="haircare-dropdown">
+            <ul className="main-flex">
               <li><div>Basic Hair Care</div></li>
               <li><div>Dandruff</div></li>
               <li><div>Dry Hair Care</div></li>
@@ -186,7 +242,7 @@ lastNavLink.addEventListener("mouseout", () => {
               <li><div>Hair Fall</div></li>
               <li><div>Hair Growth</div></li>
             </ul>
-            <ul className="dr-flex">
+            <ul className="main-flex">
               <li>
                 <div
                   ><img
@@ -244,10 +300,10 @@ lastNavLink.addEventListener("mouseout", () => {
         </li>
         <li>
           <div
-            id="third-nav-link"
+            id="tisra"
             >skin care</div   >
-          <div className="dr-flex dr-dropdown-div" id="skincare-dropdown">
-            <ul className="dr-flex">
+          <div className="main-flex main-dropdown-div" id="skincare-dropdown">
+            <ul className="main-flex">
               <li><div>Acne</div></li>
               <li><div>Anti Ageing</div></li>
               <li><div>Beauty Secrets</div></li>
@@ -258,7 +314,7 @@ lastNavLink.addEventListener("mouseout", () => {
               <li><div>Perfumes</div></li>
               <li><div>Skin Care Ideas</div></li>       
             </ul>
-            <ul className="dr-flex">
+            <ul className="main-flex">
               <li>
                 <div
                   ><img
@@ -313,10 +369,10 @@ lastNavLink.addEventListener("mouseout", () => {
         </li>
         <li>
           <div
-            id="fourth-nav-link"
+            id="chautha"
             >hair styles</div          >
-          <div className="dr-flex dr-dropdown-div" id="hairstyle-dropdown">
-            <ul className="dr-flex">
+          <div className="main-flex main-dropdown-div" id="hairstyle-dropdown">
+            <ul className="main-flex">
               <li><div>Bridal Makeup</div></li>
               <li><div>Celebrity Makeup</div></li>
               <li><div>Eye Make up</div></li>
@@ -326,7 +382,7 @@ lastNavLink.addEventListener("mouseout", () => {
               <li><div>Mehandi Designs</div></li>
               <li><div>Nail Art</div></li>
             </ul>
-            <ul className="dr-flex">
+            <ul className="main-flex">
               <li>
                 <div
                   ><img
@@ -379,152 +435,30 @@ lastNavLink.addEventListener("mouseout", () => {
             <div className="findmore">Find More</div>
           </div>
         </li>
-        <li>
-          <div
-          id="fifth-nav-link"
+      <li><div
+          id="panchwa"
             
             >health and wellness</div          >
-          <div className="dr-flex dr-dropdown-div" id="health-dropdown">
-            <ul className="dr-flex">
-              <li><div>Bridal Makeup</div></li>
-              <li><div>Celebrity Makeup</div></li>
-              <li><div>Eye Make up</div></li>
-              <li><div>Face Makeup</div></li>
-              <li><div>Lip Make up</div></li>
-              <li><div>Makeup Ideas</div></li>
-              <li><div>Mehandi Designs</div></li>
-              <li><div>Nail Art</div></li>
-            </ul>
-            <ul className="dr-flex">
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/08/11-Best-Exercise-Bikes-For-Seniors1-267x300.jpg.webp"
-                    alt=""
-                  /><span>Top 5 VLCC Bridal Makeup Packages</span></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/08/11-Best-Tennis-Shoes-For-Women-With-Wide-Feet--2021-267x300.jpg.webp"
-                    alt=""
-                  /><span
-                    >How To Apply Bridal Eye Makeup Perfectly?</span             ></div             >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Yoga-And-Exercises-To-Relieve-Constipation-1-1-267x300.jpg.webp"
-                    alt=""
-                  /><span
-                    >Look Perfect For Your Special Day – Bridal Makeup Tips
-                    For Dry Skin!</span                ></div              >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/09/10-Best-Comfortable-Shoes-For-Jumping-Rope-267x300.jpg.webp"
-                    alt=""
-                  /><span>Top 10 Bridal Makeup Packages In India</span></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/03/9-Best-Ayurvedic-Products-For-Increasing-Height-267x300.jpg.webp"
-                    alt=""
-                  /><span>Top 10 Lakme Bridal Salon Packages</span></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/06/11-Best-Fitness-Trackers-For-Kids-267x300.jpg.webp"
-                    alt=""
-                  /><span
-                    >Best Bridal Makeup Kits Available In India - Our Top
-                    10</span                  ></div                >
-              </li>
-            </ul>
-            <div className="findmore">Find More</div>
-          </div>
-        </li>
-        <li>
-          <div
-          id="sixth-nav-link"
+       </li>
+        <li>  <div
+          id="chatha"
+            >news</div          ></li>
+          <li>  <div  id="satwa">tools</div></li>
+          
            
-            >news</div          >
-          <div className="dr-flex dr-dropdown-div" id="news-dropdown">
-            <ul className="dr-flex">
-              <li><div>Bridal Makeup</div></li>
-              <li><div>Celebrity Makeup</div></li>
-              <li><div>Eye Make up</div></li>
-              <li><div>Face Makeup</div></li>
-              <li><div>Lip Make up</div></li>
-              <li><div>Makeup Ideas</div></li>
-              <li><div>Mehandi Designs</div></li>
-              <li><div>Nail Art</div></li>
-            </ul>
-            <ul className="dr-flex">
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/hayu-banner-267x300.jpg.webp"
-                    alt=""
-                  /><span>Top 5 VLCC Bridal Makeup Packages</span></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Himalaya-banner-267x300.jpg.webp"
-                    alt=""
-                  /><span
-                    >How To Apply Bridal Eye Makeup Perfectly?</span                  ></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/5-Travel-Essentials-Every-Woman-Must-Carry-267x300.jpg.webp"
-                    alt=""
-                  /><span
-                    >Look Perfect For Your Special Day – Bridal Makeup Tips
-                    For Dry Skin!</span                  ></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Himalaya_article_banner_final-1-1-2-267x300.jpg.webp"
-                    alt=""
-                  /><span>Top 10 Bridal Makeup Packages In India</span></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/02/Use-Himalaya-Fresh-Start-Oil-Clear-Face-Wash-Every-Morning-To-Get-Rid-Of-Your-Oily-Skin-1-267x300.jpg.webp"
-                    alt=""
-                  /><span>Top 10 Lakme Bridal Salon Packages</span></div                >
-              </li>
-              <li>
-                <div
-                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Himalaya_article_banner_final-1-1-1-267x300.jpg.webp"
-                    alt=""
-                  /><span
-                    >Best Bridal Makeup Kits Available In India - Our Top
-                    10</span                  ></div                >
-              </li>
-            </ul>
-            <div className="findmore">Find More</div>
-          </div>
-        </li>
-        <li>
-          <div>tools</div>
-        </li>
-        <li><div>products</div></li>
+     
+        
+       
+     
+        
+        
+        <li><div id="athwa">products</div></li>
         <li>
           <div
-            id="last-nav-link"
+            id="HumareBareme"
             >about us</div          >
           <div className="about-us-div" id="about-us-dropdown">
-            <ul className="dr-about-us">
+            <ul className="main-about-us">
               <li><div>Our team</div></li>
               <li><div>Editorial policy</div></li>
               <li><div>medical review board</div></li>
