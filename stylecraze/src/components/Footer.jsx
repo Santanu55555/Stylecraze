@@ -20,8 +20,8 @@ export const Footer = () => {
 
       <div>
           <div><p>Follow us</p></div>
-          <div id="Hitler"><img className='Romeo' src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/facebook-f.svg" alt="" /><img  className='Romeo'src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/pinterest-p.svg" alt="" /><img  className='Romeo' src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/twitter.svg" alt="" /><img  className='Romeo'src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/instagram.svg" alt="" /></div>
-          <div><img  className='Romeo'style={{marginTop: '20px'}} src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/youtube.svg" alt="" /></div>
+          <div id="Hitler"><img className='Romeo' style={{marginTop: '30px'}} src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/facebook-f.svg" alt="" /><img  className='Romeo' style={{marginTop: '30px'}} src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/pinterest-p.svg" alt="" /><img  className='Romeo' style={{marginTop: '30px'}}  src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/twitter.svg" alt="" /><img  className='Romeo' style={{marginTop: '30px'}} src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/instagram.svg" alt="" /></div>
+          <div><img  className='Romeo'style={{marginTop: '30px'}} src="https://www.stylecraze.com/wp-content/themes/buddyboss-child/images/svg-image/youtube.svg" alt="" /></div>
       </div>
 
       <div className='Nrupul'>
@@ -33,11 +33,11 @@ export const Footer = () => {
       </div>
  
     </div>
-         <>
-      <p>Copyright © 2011 - 2022 IncNut Stylecraze Private Limited. All rights reserved.</p>
-      <p style={{fontSize:"14px"}}>StyleCraze provides content of general nature that is designed for informational purposes only. The content is not intended to be a substitute for professional medical advice, diagnosis, or treatment.</p>
+         <div style={{backgroundColor:'rgb(229, 229, 229)',lineHeight:'18px'}}>
+      <p style={{ display:'flex',marginLeft:'27%',marginBottom:"-20px"}}>Copyright © 2011 - 2022 <p style={{fontWeight: 'bold',marginTop:'0px',color:'#f67'}}>IncNut Stylecraze Private Limited</p>. All rights reserved.</p>
+      <p style={{fontSize:"12px"}}>StyleCraze provides content of general nature that is designed for informational purposes only. The content is not intended to be a substitute for professional medical advice, diagnosis, or treatment.</p>
       <p style={{fontSize:"10px",marginRight:"80%",color:'#f67'}}>Click here for additional information .</p>
-      </>
+      </div>
    </div>
   )
 }

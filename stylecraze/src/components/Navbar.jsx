@@ -174,14 +174,14 @@ sunoDilKi.addEventListener("mouseout", () => {
             <ul className="main-flex" id="make-up-submenu">
               <li>
                 <div                  ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/46-Top-5-VLCC-Bridal-Makeup-Packages-ss-267x300.jpg.webp"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/12/1150-60-Best-Indian-Bridal-Makeup-Tips-267x300.jpg.webp"
                     alt=""
                   /><span>Top 5 VLCC Bridal Makeup Packages</span></div>
               </li>
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/How-To-Apply-Bridal-Eye-Makeup-Perfectly-1-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg.webp"
                     alt=""
                   /><span
                     >How To Apply Bridal Eye Makeup Perfectly?</span                  ></div>
@@ -189,7 +189,7 @@ sunoDilKi.addEventListener("mouseout", () => {
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/10/Look-Perfect-For-Your-Special-Day-Bridal-Makeup-Tips-For-Dry-Skin-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/03/41-Top-5-Keya-Seth%E2%80%99s-Bridal-Makeup-Packages-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Look Perfect For Your Special Day – Bridal Makeup Tips
@@ -198,21 +198,21 @@ sunoDilKi.addEventListener("mouseout", () => {
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/08/1513_Top-10-Bridal-Makeup-Packages-In-India-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/09/2073-Top-5-Naturals-Salon-Bridal-Makeup-Packages-is-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Bridal Makeup Packages In India</span></div                >
               </li>
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/07/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Lakme Bridal Salon Packages</span></div                >
               </li>
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/1300-Best-Bridal-Makeup-Kits-Available-In-India-Our-Top-10-ss-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/10/Look-Perfect-For-Your-Special-Day-Bridal-Makeup-Tips-For-Dry-Skin-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Best Bridal Makeup Kits Available In India - Our Top
@@ -246,7 +246,7 @@ sunoDilKi.addEventListener("mouseout", () => {
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Top-5-Hair-Products-For-Indian-Hair-1-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/08/Ultra-Shiny-And-Glossy-Hair-Secrets-No-One-Tells-267x300.jpg.webp"
                     alt=""
                   /><span
                     >5 Best Hair Products For Indian Hair To Try In
@@ -256,7 +256,7 @@ sunoDilKi.addEventListener("mouseout", () => {
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/03/Hair-Straightening-Vs--Hair-Smoothing-Differences-Side-Effects-And-Maintenance-Tips--267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/10-Best-Homemade-Conditioners-For-Curly-Hair-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Hair Straightening Vs. Hair Smoothing: Differences,
@@ -265,7 +265,7 @@ sunoDilKi.addEventListener("mouseout", () => {
               <li>
                 <div
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/02/Best-Shower-Tips-To-Keep-Your-Hair-Healthy-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/01/1721_12-Simple-Black-Hair-Care-Tips_iS-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Best Shower Tips To Keep Your Hair Healthy</span                  ></div

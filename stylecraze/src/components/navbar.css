@@ -120,6 +120,8 @@ header {
 
 .main-flex {
     display: flex;
+    width:90%;
+    margin-left: 50px;
 }
 
 

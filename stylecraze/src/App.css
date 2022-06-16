@@ -100,13 +100,14 @@
 
 }
 .SanThree {
-  width: 10%;
-  height: 80px;
+  width: 50%;
+  height: 20px;
   margin-top: 30px;
 }
 
 .SanThree>p {
   font-size: 35px;
+  width:20%;
   /* margin-left: 550px; */
   margin-top: 10px;
 }
@@ -519,7 +520,12 @@
   margin-left: 610px;
 
 }
-
+.DeshKiBaat{
+  width:200px;
+ 
+/* font-family:   Poppins-Hindi,  sans-serif; */
+      color: #212121de;
+}
 .Santahr2 {
   background-color: #ff5a78;
   height: 2px;
