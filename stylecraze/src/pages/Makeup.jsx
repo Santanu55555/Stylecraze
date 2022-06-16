@@ -6,9 +6,9 @@ export const Makeup = () => {
          <ol >
         <li >
            Home
-        </li> » 
+        </li>  
         <li>
-                    Make Up
+              Make Up
         </li>
     </ol>
     </div>
