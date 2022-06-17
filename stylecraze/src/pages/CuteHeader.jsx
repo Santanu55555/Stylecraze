@@ -1,4 +1,9 @@
 import React from 'react'
+import { Footer } from '../components/Footer'
+import { Bottom } from './Bottom'
+import { HairCare } from './HairCare'
+import { Skin } from './Skin'
+import { Testimonials } from './Testimonials'
 
 export const CuteHeader = () => { 
     
@@ -11,8 +16,13 @@ export const CuteHeader = () => {
             <div class="SanOne-div"><img src="https://cdn2.stylecraze.com/wp-content/uploads/2017/08/How-To-Do-Ombre-Nails-Like-A-Pro-Tutorial-With-Pictures-2.jpg.webp"/>
                 <p className="Lelo">21 Best Fruit And Vegetable Juices For Healthy And Glowing Skin</p></div>
         </div>
-  
-      <div></div>
+        
+      
+      <Bottom/>
+      <HairCare/>
+      <Skin/>
+      <Testimonials/>
+      <Footer/>
     </div>
 
 

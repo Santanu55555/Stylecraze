@@ -1,138 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './navbar.css'
 // import './Hitler.scss'
  import {useRef, useEffect} from 'react';
-
+import { useNavigate } from 'react-router-dom';
+ 
 export const Navbar = () => {
 
   // const [toggle,setToggle]=useState(false)
-window.onload=function(){
-var makeup = document.getElementById("makeup-dropdown");
-var one = document.getElementById("pehla");
 
-const toggleMakeUp=(element)=> {
-  element.style.display = "block";
-  element.addEventListener("mouseover", () => {
-    element.style.display = "block";
-  });
-  element.addEventListener("mouseout", () => {
-    element.style.display = "none";
-  });}
-
-  const toggleMakeUpOff=(element)=> {
-  element.style.display = "none";
-}
-
-if(one){
-one.addEventListener("mouseover", () => {
-  toggleMakeUp(makeup);
-});
-one.addEventListener("mouseout", () => {
-  toggleMakeUpOff(makeup);
-});
-}
-var bottle= document.getElementById("panchwa")
-
-if(bottle){
-bottle.addEventListener("mouseover", () => {
-  toggleMakeUp(makeup);
-});
-bottle.addEventListener("mouseout", () => {
-  toggleMakeUpOff(makeup);
-});
-}
-
-var haircare = document.getElementById("haircare-dropdown")
-
- var down = document.getElementById("dusra");
-
- if(down){
-
-down.addEventListener("mouseover", () => {
-  toggleMakeUp(haircare);
-});
-down.addEventListener("mouseout", () => {
-  toggleMakeUpOff(haircare);
-});
- }
-var sixth = document.getElementById("chatha");
-
- if(sixth){
-
-sixth.addEventListener("mouseover", () => {
-  toggleMakeUp(haircare);
-});
-sixth.addEventListener("mouseout", () => {
-  toggleMakeUpOff(haircare);
-});
- }
-
-
-var skincare = document.getElementById("skincare-dropdown");
-
-var bob = document.getElementById("tisra");
-
-
-if(bob){
-bob.addEventListener("mouseover", () => {
-  toggleMakeUp(skincare);
-});
-bob.addEventListener("mouseout", () => {
-  toggleMakeUpOff(skincare);
-});
-}
-var seventh = document.getElementById("satwa");
-
-
-if(seventh){
-seventh.addEventListener("mouseover", () => {
-  toggleMakeUp(skincare);
-});
-seventh.addEventListener("mouseout", () => {
-  toggleMakeUpOff(skincare);
-});
-}
-
-var hairstyle = document.getElementById("hairstyle-dropdown");
-var Marle = document.getElementById("chautha");
-
-
-if(Marle){
-Marle.addEventListener("mouseover", () => {
-  toggleMakeUp(hairstyle);
-});
-Marle.addEventListener("mouseout", () => {
-  toggleMakeUpOff(hairstyle);
-});
-}
-var eighth = document.getElementById("athwa");
-
-
-if(eighth){
-eighth.addEventListener("mouseover", () => {
-  toggleMakeUp(hairstyle);
-});
-eighth.addEventListener("mouseout", () => {
-  toggleMakeUpOff(hairstyle);
-});
-}
-
-var aboutus = document.getElementById("about-us-dropdown");
-var sunoDilKi = document.getElementById("HumareBareme");
-
-if(sunoDilKi){
-sunoDilKi.addEventListener("mouseover", () => {
-  toggleMakeUp(aboutus);
-});
-sunoDilKi.addEventListener("mouseout", () => {
-  toggleMakeUpOff(aboutus);
-});
-}
-
-
-
-
-}
 
 
 //   // const ref = useRef(null);
@@ -144,17 +19,151 @@ sunoDilKi.addEventListener("mouseout", () => {
   //     toggleMakeUp(ref.current)
     
   // })
+  // const a=1;
+  // if(a===1){
+    useEffect(()=>{
+      const toggleMakeUp=(element)=> {
+        element.style.display = "block";
+        element.addEventListener("mouseover", () => {
+          element.style.display = "block";
+        });
+        element.addEventListener("mouseout", () => {
+          element.style.display = "none";
+        });}
+      
+        const toggleMakeUpOff=(element)=> {
+        element.style.display = "none";
+      }
+  
+      var makeup = document.getElementById("makeup-dropdown");
+      var one = document.getElementById("pehla");
+      
+      if(one){
+      one.addEventListener("mouseover", () => {
+        toggleMakeUp(makeup);
+      });
+      one.addEventListener("mouseout", () => {
+        toggleMakeUpOff(makeup);
+      });
+      }
+      var bottle= document.getElementById("panchwa")
+      
+      if(bottle){
+      bottle.addEventListener("mouseover", () => {
+        toggleMakeUp(makeup);
+      });
+      bottle.addEventListener("mouseout", () => {
+        toggleMakeUpOff(makeup);
+      });
+      }
+      
+      var haircare = document.getElementById("haircare-dropdown")
+      
+       var down = document.getElementById("dusra");
+      
+       if(down){
+      
+      down.addEventListener("mouseover", () => {
+        toggleMakeUp(haircare);
+      });
+      down.addEventListener("mouseout", () => {
+        toggleMakeUpOff(haircare);
+      });
+       }
+      var sixth = document.getElementById("chatha");
+      
+       if(sixth){
+      
+      sixth.addEventListener("mouseover", () => {
+        toggleMakeUp(haircare);
+      });
+      sixth.addEventListener("mouseout", () => {
+        toggleMakeUpOff(haircare);
+      });
+       }
+      
+      
+      var skincare = document.getElementById("skincare-dropdown");
+      
+      var bob = document.getElementById("tisra");
+      
+      
+      if(bob){
+      bob.addEventListener("mouseover", () => {
+        toggleMakeUp(skincare);
+      });
+      bob.addEventListener("mouseout", () => {
+        toggleMakeUpOff(skincare);
+      });
+      }
+      var seventh = document.getElementById("satwa");
+      
+      
+      if(seventh){
+      seventh.addEventListener("mouseover", () => {
+        toggleMakeUp(skincare);
+      });
+      seventh.addEventListener("mouseout", () => {
+        toggleMakeUpOff(skincare);
+      });
+      }
+      
+      var hairstyle = document.getElementById("hairstyle-dropdown");
+      var Marle = document.getElementById("chautha");
+      
+      
+      if(Marle){
+      Marle.addEventListener("mouseover", () => {
+        toggleMakeUp(hairstyle);
+      });
+      Marle.addEventListener("mouseout", () => {
+        toggleMakeUpOff(hairstyle);
+      });
+      }
+      var eighth = document.getElementById("athwa");
+      
+      
+      if(eighth){
+      eighth.addEventListener("mouseover", () => {
+        toggleMakeUp(hairstyle);
+      });
+      eighth.addEventListener("mouseout", () => {
+        toggleMakeUpOff(hairstyle);
+      });
+      }
+      
+      var aboutus = document.getElementById("about-us-dropdown");
+      var sunoDilKi = document.getElementById("HumareBareme");
+      
+      if(sunoDilKi){
+      sunoDilKi.addEventListener("mouseover", () => {
+        toggleMakeUp(aboutus);
+      });
+      sunoDilKi.addEventListener("mouseout", () => {
+        toggleMakeUpOff(aboutus);
+      });
+      }
+      
+      
+      
+    })
+   
+    
+const navigate=useNavigate()    
+  
+  
 
-
+  
 
   return (
+    
     <div id="navu">
-        <div><img src='https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png'/></div>
+        <div><img onClick={()=>navigate('/')} src='https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png' /></div>
         <div><nav>
     <div className="main-container">
       <ul>
         <li>
-          <div id = "pehla"  >Make up</div  >
+          <div id = "pehla"  onClick={()=>navigate("/makeup")}>Make up</div  >
 <div>
           <div className="main-flex main-dropdown-div"   id="makeup-dropdown">
             <ul className="main-flex">
@@ -230,6 +239,7 @@ sunoDilKi.addEventListener("mouseout", () => {
         <li>
           <div
             id = "dusra"
+            onClick={()=>navigate('/haircare')}
             >hair care</div>
           <div className="main-flex main-dropdown-div" id="haircare-dropdown">
             <ul className="main-flex">

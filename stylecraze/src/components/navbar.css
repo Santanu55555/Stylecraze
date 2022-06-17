@@ -85,7 +85,7 @@ header {
 }
 #navu{
     position:fixed;
-    /* display:contents; */
+   height:100px;
     z-index:1;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -144,9 +144,7 @@ a {
     position: absolute;
     box-shadow: -1px 7px 20px -7px #afa2a2;
     font-size: 14px;
-    
-   
-    top: 20;
+     top: 20;
     left: 0;
     z-index: 1100;
     background-color: white;

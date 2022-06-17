@@ -33,8 +33,8 @@ export const Footer = () => {
       </div>
  
     </div>
-         <div style={{backgroundColor:'rgb(229, 229, 229)',lineHeight:'18px'}}>
-      <p style={{ display:'flex',marginLeft:'27%',marginBottom:"-20px"}}>Copyright © 2011 - 2022 <p style={{fontWeight: 'bold',marginTop:'0px',color:'#f67'}}>IncNut Stylecraze Private Limited</p>. All rights reserved.</p>
+         <div style={{backgroundColor:'rgb(229, 229, 229)',lineHeight:'3'}}>
+      <p style={{ display:'flex',marginLeft:'27%',marginBottom:"-20px"}}>Copyright © 2011 - 2022 <span style={{fontWeight: 'bold',marginTop:'0px',color:'#f67'}}>IncNut Stylecraze Private Limited</span>. All rights reserved.</p>
       <p style={{fontSize:"12px"}}>StyleCraze provides content of general nature that is designed for informational purposes only. The content is not intended to be a substitute for professional medical advice, diagnosis, or treatment.</p>
       <p style={{fontSize:"10px",marginRight:"80%",color:'#f67'}}>Click here for additional information .</p>
       </div>
