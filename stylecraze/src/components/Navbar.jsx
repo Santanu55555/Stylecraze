@@ -35,8 +35,8 @@ export const Navbar = () => {
         element.style.display = "none";
       }
   
-      var makeup = document.getElementById("makeup-dropdown");
-      var one = document.getElementById("pehla");
+      var makeup = document.getElementById("makeup-dropdown")
+      var one = document.getElementById("pehla")
       
       if(one){
       one.addEventListener("mouseover", () => {
